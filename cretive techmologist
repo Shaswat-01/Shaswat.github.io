@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Techmologist</title>
+    <link rel="style.sheet" href="style.css">
+</head>
+<body>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}  
+
+body{
+    font-family: Inter, sans-serif;
+    color: black;
+    margin: 10px;
+}
+.navbar {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-weight: 600;
+    gap: 15px;
+    margin: 0 140px;
+    list-style: none;
+    margin-bottom: 60px;
+}
+.navbar a {
+    text-decoration: none;
+}
+.navbar :hover {
+  color: black;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 117px;
+    padding: 37px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.text h1{
+    width: 506px;
+    height: 105px;
+    font-size: 44px;
+}
+.text p {
+  width: 79%;
+      height: 66px;
+    font-size: 20px;
+}
+.text button {
+    width: 199px;
+    height: 42px;
+    background: #FF6464;
+    color: white;
+    font-size: 20px;
+}
+.text button:hover{
+  background-color: #d82f2f;
+}
+
+.Recent {
+    background-color: #EDF7FA;
+    padding: 6px;
+    width: 1235px;
+    margin: 0 134px;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.div {
+    display: flex;
+    gap: 41px;
+    padding: 0px 165px;
+    margin: 15px;
+}
+.post{
+    width: 418px;
+    height: 295px;
+    background-color: #FFFFFF;
+    line-height: 43px;
+}
+
+.post h1 {
+  display: flex;
+    width: 372px;
+    height: 85px;
+}
+.post-meta {
+  width: 418px;
+    height: 295px;
+    background-color: #FFFFFF;
+    line-height: 43px;
+}
+.dd p{
+  width: 594px;
+  height: 93px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ff {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+    margin: 2px 310px;
+    line-height: 40px;
+    padding: 10px;
+}
+.ww {
+  margin: 0 169px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin: 28px;
+    padding: 15px;
+    flex-direction: column;
+    text-align: center;
+}
+ .footer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 12px;
+}
+    </style>
+    <header>
+     <div class="navbar">
+      <nav>
+        <a href="#">Work</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a> 
+      </nav>
+     </div> 
+    </header> 
+    <section class="hero">
+     <div class="text">
+        <h1>Hii, I am Shaswat,<br>Cretive Technologist</h1>
+        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.<br> Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>  
+        <button href="#">Download Resume</button> 
+       </div>
+     <div class="image">
+       <img src="image/Ellipse 1.png" alt="profile.photo" class="profile.img"/>  
+     </div>
+     </section>
+
+    <section class="Recent posts">
+     
+     <div class="title">
+     <h1>Recent posts</h1>
+     <a href="#">View all</a>
+     </div>
+     <div class="div">
+      <div class="post">
+        <h1>Making a design system from scratch</h1>
+        <p class="meta">12 Feb 2020 | Design, Pattern</p>
+        <p class="desc">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+      </div>
+       <div>
+      <div class="post-meta">
+        <h1>Creating pixel perfect icons in Figma</h1>
+        <p class="meta">12 Feb 2020 | Figma, Icon Design</p>
+        <p class="desc">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+      </div>
+    </div>
+    </div>
+    </section>
+    <section class="featured-work">
+     <div class="ww">
+      <h1>Featured-work</h1>
+     </div>
+     <div class="ff">
+      <img src="image/Rectangle 30.png" alt="image" class="image.img" />
+     
+        <div class="dd">
+        <h1>Designing Dashboards</h1> 
+        <span>2020</span>
+        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+     </div>
+     <div class="ff">
+      <img src="image/Rectangle 32.png" alt="image" class="image.img" />
+     
+        <div class="dd">
+        <h1>Vibrant Portraits of 2020</h1> 
+        <span>2018</span>
+        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+     </div>
+     <div class="ff">
+      <img src="image/Rectangle 34.png" alt="image" class="image.img" />
+     
+        <div class="dd">
+        <h1>36 Days of Malayalam type</h1> 
+        <span>2018</span>
+        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+     </div>
+    </section>
+
+    <footer class="icons">
+      <div class="footer">
+      <img src="image/fb.png" href="#" />
+     <img src="image/insta.png" href="#" />
+     <img src="image/Group.png" href="#" />
+     <img src="image/Linkedin.png" href="#" />
+     
+     </div>
+     <div  class="copy">
+     <p>Copyright ©2020 All rights reserved </p>
+     </div>
+    </footer>
+
+</body>
+</html>
